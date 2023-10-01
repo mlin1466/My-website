@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href="drip.css"
+</head>
+<body>
+      
+    <li><a href="page.html">home</a></li>
+    <header>
+        <h1>Spots</h1>
+      </header>
+    <p class="second">
+        Some of the best spots around NYC are probably union square, 2 bros pizza, and the manhattan library. Those are usually my hang out spots. Some spots include:
+    </p>
+    <!-- list -->
+    <ul class = "fourth">
+        <li>Queens Library</li>
+        <li>Roosevelt Island</li>
+        <li>Forest cafe</li>
+      </ul>
+      <!-- Video file -->
+      <video src="https://vod-progressive.akamaized.net/exp=1696279654~acl=%2Fvimeo-transcode-storage-prod-us-central1-h264-2160p%2F01%2F4047%2F16%2F420239207%2F1814675771.mp4~hmac=fe2dc87dbb14ea0a1d990304cd8ed21c281f97a0c97d06eaf6ec951afe38e2b0/vimeo-transcode-storage-prod-us-central1-h264-2160p/01/4047/16/420239207/1814675771.mp4?download=1&filename=production_id%3A4434242+%282160p%29.mp4" controls width="300" height="200"></video>
+
+    <div class="image-container">
+        <img src="https://assets2.devourtours.com/wp-content/uploads/joes-pizza-nyc.jpeg" alt="Image 2" width="600" height="450">
+    </div>
+
+    <h2>Contact Us</h2>
+  <form action="process_form.php" method="post">
+    <!-- Text Input for Name -->
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    
+    <!-- Text Input for Email -->
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    
+    <!-- Text Area for Message -->
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="4" required></textarea>
+    
+    <!-- Form -->
+    <p>Gender:</p>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label>
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>

@@ -1,0 +1,11 @@
+header {
+    background: rgb(86, 2, 2);
+    height: 100px;
+  }
+
+  h1 {
+    text-align: center;
+    color: rgb(14, 244, 110);
+    line-height: 100px;
+    margin: 0;
+  }
